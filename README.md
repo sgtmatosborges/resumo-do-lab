@@ -17,7 +17,6 @@ Benefícios da nuvem: **confiabilidade**, **previsibilidade** e **segurança** B
 
  - [Portal Azure](https://portal.azure.com/#home)
  - [Documentação AZURE](https://learn.microsoft.com/pt-br/azure/?product=popular&WT.mc_id=Portal-Microsoft_Azure_Support)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 ## 📷Screenshots_ Azure Menu
 
