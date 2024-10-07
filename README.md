@@ -61,6 +61,60 @@ Dimensionamento Automático: Para dimensionar automaticamente, vá para a seçã
 Monitoramento e Ajustes: Após configurar, é importante monitorar o desempenho e fazer ajustes conforme necessário. O Azure fornece ferramentas de monitoramento que ajudam a entender o uso de recursos e a identificar quando ajustes são necessários.
 
 
+# Visão geral da segurança de gerenciamento de identidade do Azure
+
+Gerenciamento de identidade é o processo de autenticação e autorização das entidades de segurança. Também envolve controlar informações sobre as entidades (identidades). As entidades de segurança (identidades) podem incluir serviços, aplicativos, usuários, grupos etc. As soluções de gerenciamento de acesso e identidade da Microsoft ajudam a TI a proteger o acesso a aplicativos e recursos no datacenter corporativo e na nuvem. Esse tipo de proteção permite níveis adicionais de validação, tais como autenticação multifator e políticas de acesso condicional. O monitoramento de atividade suspeita por meio de alertas, auditoria e relatórios de segurança avançados ajuda a reduzir potenciais problemas de segurança. O Microsoft Entra ID P1 ou P2 fornece SSO (logon único) para milhares de aplicativos SaaS (software como serviço) de nuvem e acesso a aplicativos Web executados localmente.
+
+Aproveitando os benefícios de segurança do Microsoft Entra ID, você pode:
+
+Crie e gerencie uma identidade única para cada usuário em sua empresa híbrida, mantendo usuários, grupos e dispositivos em sincronia.
+Fornecer acesso de SSO para seus aplicativos, incluindo milhares de aplicativos de SaaS pré-integrados.
+Habilitar segurança de acesso do aplicativo por meio da aplicação da autenticação multifator com base em regras para aplicativos locais e na nuvem.
+Provisionar o acesso remoto seguro a aplicativos Web locais por meio do proxy de aplicativo do Microsoft Entra.
+O objetivo deste artigo é fornecer uma visão geral dos recursos de segurança centrais do Azure que ajudam com o gerenciamento de identidades. Também fornecemos links para artigos que dão os detalhes de cada recurso para que você possa saber mais.
+
+O artigo se concentra nas seguintes funcionalidades de gerenciamento de identidade centrais do Azure:
+
+Logon único
+Proxy reverso
+Autenticação multifator
+RBAC do Azure (controle de acesso baseado em função do Azure)
+Relatórios baseados em aprendizado de máquina, alertas e monitoramento de segurança
+Gerenciamento de acesso e identidade do consumidor
+Registro de dispositivos
+Privileged Identity Management
+Proteção de identidade
+Gerenciamento de identidade híbrida/conectar Azure Active Directory
+Revisões de acesso do Microsoft Entra
+
+# Logon Único
+SSO (logon único) significa poder acessar todos os aplicativos e recursos de que você precisa para fazer negócios, conectando-se apenas uma vez usando uma única conta de usuário. Depois de conectado, você pode acessar todos os aplicativos necessários sem a exigência de autenticação (por exemplo, digitar uma senha) uma segunda vez.
+
+Muitas organizações contam com aplicativos de SaaS como o Microsoft 365, o Box e o Salesforce, para aumentar a produtividade do usuário. Historicamente, a equipe de TI precisava criar e atualizar individualmente as contas de usuário em cada aplicativo SaaS e os usuários precisavam lembrar uma senha para cada aplicativo SaaS.
+
+O Microsoft Entra ID estende os ambientes do Active Directory local para a nuvem, permitindo que os usuários usem suas contas organizacionais primárias para se conectar não apenas a recursos corporativos e dispositivos ingressados no domínio, mas também a todos os aplicativos Web e de SaaS necessários para seus trabalhos.
+
+Os usuários não precisam apenas gerenciar vários conjuntos de nomes de usuário e senhas, mas também podem provisionar ou desprovisionar o acesso automaticamente com base nos grupos organizacionais e no status de funcionário deles. O Microsoft Entra ID introduz controles de governança de acesso e segurança com os quais você pode gerenciar centralmente o acesso dos usuários a aplicativos de SaaS.
+
+# Autenticação multifator
+
+A autenticação multifator do Microsoft Entra é um método de autenticação que exige o uso de mais de um método de verificação e adiciona uma segunda camada de segurança crítica às entradas e transações dos usuários. A autenticação multifator ajuda a proteger o acesso a dados e aplicativos enquanto atende à demanda dos usuários para um processo de logon simples. Ela fornece autenticação forte por meio de uma variedade de opções de verificação: chamada telefônica, mensagem de texto, notificações de aplicativo móvel ou códigos de verificação e tokens OAuth de terceiros.
+
+# RBAC do Azure
+O RBAC do Azure é um sistema de autorização baseado no Azure Resource Manager que fornece gerenciamento de acesso refinado aos recursos no Azure. O RBAC do Azure permite controlar de modo granular o nível de acesso que os usuários têm. Por exemplo, você pode limitar um usuário para somente gerenciar redes virtuais e outro usuário para gerenciar todos os recursos em um grupo de recursos. O Azure inclui várias funções internas que você pode usar.
+
+# Relatórios baseados em aprendizado de máquina, alertas e monitoramento de segurança
+
+Monitoramento de segurança, alertas e relatórios baseados no aprendizado de máquina que identificam padrões de acesso inconsistentes podem ajudá-lo a proteger seus negócios. Você pode usar os relatórios de uso e de acesso do Microsoft Entra ID para obter visibilidade quanto à integridade e segurança do diretório da sua organização. Com essas informações, um administrador de diretório pode determinar melhor onde possíveis riscos de segurança podem estar, de modo que pode fazer planos adequados para mitigar esses riscos.
+
+No portal do Azure, os relatórios se enquadram nas categorias a seguir:
+
+Relatórios de anomalias: contêm eventos de entrada que nós identificamos como anômalos. Nossa meta é que você fique ciente dessas atividades e possa determinar se um evento é suspeito ou não.
+Relatórios de aplicativos integrados: fornecem um panorama de como os aplicativos em nuvem estão sendo usados na sua organização. O Microsoft Entra ID oferece integração com milhares de aplicativos em nuvem.
+Relatórios de erros: indicam erros que podem ocorrer ao provisionar contas para aplicativos externos.
+Relatórios específicos do usuário: exibem dados de atividade de entrada/dispositivo de um usuário específico.
+Logs de atividades: contêm um registro de todos os eventos auditados nas últimas 24 horas, nos últimos 7 dias ou 30 dias, bem como alterações de atividades do grupo e atividades de registro e redefinição de senha.
+
 ## 🚀 Sobre mim
 Sou Rafael Matos Borges, 41 anos Graduação em Analise de Sistemas e Redes de Computadores com atuação na area de Infra-estrutura migrando para cloud aprendendo LINUX, DOCKER, KUBERNETES.
 ## 🔗🛜 Minhas Redes e Link.
