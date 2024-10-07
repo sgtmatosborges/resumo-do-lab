@@ -49,6 +49,17 @@ Oferece um sistema de arquivos hierárquico, com armazenamento em camadas de bai
 Uma conta de armazenamento do Azure contém todos os objetos de dados do Armazenamento do Azure, como blobs, arquivos, filas e tabelas. Os limites de capacidade de armazenamento do Azure são definidos no nível da conta. 
 O Gerenciador de Armazenamento do Microsoft Azure é um aplicativo que facilita o trabalho com dados do Armazenamento do Azure no Windows, macOS e Linux. 
 
+# Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure
+
+Configurar recursos e dimensionar máquinas virtuais na Azure é um processo essencial para garantir que suas aplicações sejam eficientes e escaláveis. Aqui estão alguns passos básicos para te ajudar a começar:
+
+Acessar o Portal do Azure: Primeiro, acesse o portal do Azure e selecione "Grupos de Recursos" no menu à esquerda
+. Escolha o grupo de recursos que contém o conjunto de escalas e, em seguida, selecione o conjunto de escalas na lista de recursos
+Configurar Recursos: Dentro do conjunto de escalas, você pode ajustar os recursos, como o número de instâncias, o tamanho das instâncias (tamanho da VM), e a rede associada
+Dimensionamento Automático: Para dimensionar automaticamente, vá para a seção "Dimensionamento" no menu à esquerda da janela do conjunto de escalas
+. Aqui, você pode configurar regras de dimensionamento automático com base em métricas como CPU, memória ou tráfego de rede
+Monitoramento e Ajustes: Após configurar, é importante monitorar o desempenho e fazer ajustes conforme necessário. O Azure fornece ferramentas de monitoramento que ajudam a entender o uso de recursos e a identificar quando ajustes são necessários.
+
 
 ## 🚀 Sobre mim
 Sou Rafael Matos Borges, 41 anos Graduação em Analise de Sistemas e Redes de Computadores com atuação na area de Infra-estrutura migrando para cloud aprendendo LINUX, DOCKER, KUBERNETES.
