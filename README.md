@@ -144,6 +144,21 @@ Ao planejar sua estratégia de controle de acesso, conceda a usuários o menor p
 
 Ao planejar sua metodologia de controle de acesso, tente trabalhar com as pessoas de sua organização. Recomendamos trabalhar com pessoas nas áreas de segurança e conformidade, administração de TI e arquitetura empresarial.
 
+# Ferramentas de Implantação na Azure
+
+As ferramentas de implantação no Azure são essenciais para automatizar e gerenciar a entrega de aplicativos e serviços. Aqui estão algumas das principais ferramentas e práticas recomendadas:
+
+Azure DevOps: Oferece pipelines de CI/CD (Integração Contínua e Entrega Contínua) que permitem automatizar a construção, teste e implantação de aplicativos.
+
+Azure Resource Manager (ARM) Templates: Usado para definir a infraestrutura como código, permitindo a implantação consistente de recursos do Azure
+
+GitHub Actions: Integrado ao GitHub, permite configurar fluxos de trabalho de CI/CD diretamente nos repositórios de código1.
+Azure Resource Manager (ARM) Templates: Usado para definir a infraestrutura como código, permitindo a implantação consistente de recursos do Azure.
+
+Terraform: Uma ferramenta de código aberto que permite definir e provisionar infraestrutura através de arquivos de configuração.
+
+Azure Kubernetes Service (AKS): Facilita a implantação, gerenciamento e operação de clusters Kubernetes no Azure
+
 
 
 ## 🚀 Sobre mim
