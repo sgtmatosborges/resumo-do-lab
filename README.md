@@ -159,7 +159,21 @@ Terraform: Uma ferramenta de código aberto que permite definir e provisionar in
 
 Azure Kubernetes Service (AKS): Facilita a implantação, gerenciamento e operação de clusters Kubernetes no Azure
 
+# Monitoramento Inteligente com o Azure
 
+O Monitoramento Inteligente com o Azure envolve o uso de várias ferramentas para garantir a observabilidade e o desempenho ideal dos seus aplicativos e infraestrutura. Aqui estão algumas das principais ferramentas e recursos:
+
+Azure Monitor: Coleta e analisa dados telemétricos de seus aplicativos e infraestrutura, ajudando a identificar e resolver problemas rapidamente.
+
+Azure Log Analytics: Permite coletar e analisar dados de logs de diferentes fontes, facilitando a detecção de anomalias e a geração de insights.
+
+Azure Application Insights: Fornece monitoramento de desempenho de aplicativos em tempo real, ajudando a identificar gargalos e melhorar a experiência do usuário.
+
+Intelligent Insights: Usa inteligência artificial para monitorar e otimizar o desempenho de bancos de dados SQL no Azure
+
+## Referência
+
+ - [Azure Monitor](https://azure.microsoft.com/pt-br/products/monitor/)
 
 ## 🚀 Sobre mim
 Sou Rafael Matos Borges, 41 anos Graduação em Analise de Sistemas e Redes de Computadores com atuação na area de Infra-estrutura migrando para cloud aprendendo LINUX, DOCKER, KUBERNETES.
