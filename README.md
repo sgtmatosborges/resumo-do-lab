@@ -133,6 +133,17 @@ Aproveitar Ofertas e Descontos: O Azure oferece várias ofertas e descontos, com
 
 Revisão Regular de Custos: Faça revisões regulares dos seus custos e compare-os com seus orçamentos. Isso ajuda a identificar áreas onde você pode fazer ajustes para economizar.
 
+# Gerenciando Politicas em Acessos Azure
+
+
+Gerenciar quem pode acessar seus recursos e assinaturas do Azure constitui uma parte importante de sua estratégia de governança do Azure. Atribuir direitos e privilégios de acesso baseados em grupo é uma boa prática. Lidar com grupos em vez de usuários individuais simplifica a manutenção das políticas de acesso, fornece gerenciamento de acesso consistente entre as equipes e reduz os erros de configuração. O Azure RBAC (controle de acesso baseado em função do Azure) é o principal método de gerenciamento de acesso no Azure.
+
+O RBAC do Azure permite gerenciar o acesso de seus recursos no Azure. Ele ajuda você a gerenciar quem tem acesso aos recursos do Azure, o que eles podem fazer com esses recursos e que escopo eles podem acessar.
+
+Ao planejar sua estratégia de controle de acesso, conceda a usuários o menor privilégio necessário para realizarem seus trabalhos. A imagem a seguir mostra um padrão sugerido para a atribuição do Azure RBAC.
+
+Ao planejar sua metodologia de controle de acesso, tente trabalhar com as pessoas de sua organização. Recomendamos trabalhar com pessoas nas áreas de segurança e conformidade, administração de TI e arquitetura empresarial.
+
 
 
 ## 🚀 Sobre mim
