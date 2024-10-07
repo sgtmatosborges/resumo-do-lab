@@ -33,6 +33,22 @@ Benefícios da nuvem: **confiabilidade**, **previsibilidade** e **segurança** B
 
 ![Azure menu principal](https://media.licdn.com/dms/image/C4E12AQFJ5HpWNPU6TA/article-cover_image-shrink_720_1280/0/1614239296629?e=2147483647&v=beta&t=kZng28PBfBLFP1bCr753f5e7pU0S54cqbPaVeND60pg)
 
+# Dominando o Armazenamento no azure
+
+O armazenamento do Azure é um serviço da Microsoft que permite armazenar e gerenciar dados em nuvem. Ele oferece vários tipos de armazenamento, como: 
+Armazenamento de Blobs
+Ideal para armazenar grandes quantidades de dados não estruturados, como imagens, vídeos, arquivos de áudio e arquivos de texto. 
+Armazenamento de Arquivos do Azure
+Oferece armazenamento em nuvem seguro, durável e altamente disponível para dados raramente acessados. 
+Azure Files
+Permite compartilhar arquivos entre a nuvem e sistemas on-premise (locais). 
+Azure Queue Storage
+Um recurso de armazenamento de filas que pode ser acessado pelos serviços HTTP ou HTTPS. 
+Data Lake Storage Gen2
+Oferece um sistema de arquivos hierárquico, com armazenamento em camadas de baixo custo, alta disponibilidade, forte consistência e recursos de recuperação de desastres. 
+Uma conta de armazenamento do Azure contém todos os objetos de dados do Armazenamento do Azure, como blobs, arquivos, filas e tabelas. Os limites de capacidade de armazenamento do Azure são definidos no nível da conta. 
+O Gerenciador de Armazenamento do Microsoft Azure é um aplicativo que facilita o trabalho com dados do Armazenamento do Azure no Windows, macOS e Linux. 
+
 
 ## 🚀 Sobre mim
 Sou Rafael Matos Borges, 41 anos Graduação em Analise de Sistemas e Redes de Computadores com atuação na area de Infra-estrutura migrando para cloud aprendendo LINUX, DOCKER, KUBERNETES.
