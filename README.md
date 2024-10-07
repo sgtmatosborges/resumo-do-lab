@@ -115,6 +115,26 @@ Relatórios de erros: indicam erros que podem ocorrer ao provisionar contas para
 Relatórios específicos do usuário: exibem dados de atividade de entrada/dispositivo de um usuário específico.
 Logs de atividades: contêm um registro de todos os eventos auditados nas últimas 24 horas, nos últimos 7 dias ou 30 dias, bem como alterações de atividades do grupo e atividades de registro e redefinição de senha.
 
+# Otimizando Custos no Azure
+
+Otimizar custos no Azure é essencial para garantir que você esteja utilizando seus recursos de forma eficiente e economizando dinheiro. Aqui estão algumas dicas para te ajudar:
+
+Monitoramento e Análise de Custos: Utilize o Azure Cost Management para monitorar e analisar seus gastos. 
+Ele oferece ferramentas como análise de custos, previsão de custos e orçamentos para ajudar a controlar os gastos
+
+Uso de Tags: Utilize tags para organizar e categorizar seus recursos. 
+Isso facilita a identificação de quais recursos estão sendo usados por quais departamentos ou projetos, ajudando a entender melhor onde os custos estão sendo gerados
+
+Desligar Recursos Não Utilizados: Desligue ou desative recursos que não estão sendo utilizados. Muitas vezes, recursos como VMs e armazenamento são deixados ligados mesmo quando não são necessários, resultando em custos desnecessários.
+
+Dimensionamento Automático: Utilize o dimensionamento automático para ajustar a quantidade de recursos conforme a demanda. Isso garante que você esteja utilizando apenas o necessário, evitando desperdícios.
+
+Aproveitar Ofertas e Descontos: O Azure oferece várias ofertas e descontos, como a Azure Reserved Instances, que podem reduzir significativamente os custos se você planejar usar recursos por um período prolongado.
+
+Revisão Regular de Custos: Faça revisões regulares dos seus custos e compare-os com seus orçamentos. Isso ajuda a identificar áreas onde você pode fazer ajustes para economizar.
+
+
+
 ## 🚀 Sobre mim
 Sou Rafael Matos Borges, 41 anos Graduação em Analise de Sistemas e Redes de Computadores com atuação na area de Infra-estrutura migrando para cloud aprendendo LINUX, DOCKER, KUBERNETES.
 ## 🔗🛜 Minhas Redes e Link.
